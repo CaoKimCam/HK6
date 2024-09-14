@@ -1,0 +1,28 @@
+email: phatpt@uit.edu.vn
+- deadline: 2 tuần
+- có thể vấn đáp nhóm buổi tiếp theo
+- nộp bài qua website môn học
+- trung bình 6 bài thực hành + điểm cộng - điểm trừ
+- nộp dưới định dạng file .doc(không xuất file pdf)
+- không nộp bài được -> nộp báo cáo -> upload link drive 
+- nén .zip
+- không copy
+- trình bày theo mẫu báo cáo thực hành
+- bắt buộc: p1+p4
+hình ảnh - minh chứng - giải thích
+
+Nội dung 6 bài thực hành: xoay quanh IoT
+- bài 1: arduino
+- bài 2: giới thiệu sensor
+- bài 3: network để kết nối thiết bị qua MTTQ, HTTP
+- bài 4: manage dữ liệu, sử dụng iot platform, năm nay nền tảng web, clone về sửa
+- bài 5: hiện đại: nhúng modal AI vào mô hình nhúng
+- bài 6: triển khai advance topic liên quan hệ thống (ví dụ: xử lý song song trên mô hình)
+
+int LED =8;
+
+void setup()
+{
+	Serial.begin(115200);
+	pinMode(LED, OUTPUT);
+}

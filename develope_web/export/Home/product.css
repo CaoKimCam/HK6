@@ -1,0 +1,978 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.product-page-child,
+.product-page-item {
+  position: absolute;
+  top: 45.813em;
+  left: 2.313em;
+}
+.product-page-child {
+  background-color: rgba(232, 232, 232, 0.43);
+  border-bottom: 0.1px solid #000;
+  box-sizing: border-box;
+  width: 45.813em;
+  height: 4.5em;
+}
+.product-page-item {
+  background-color: #78b9ec;
+  width: 5.625em;
+  height: 2.813em;
+}
+.product-page-inner {
+  position: absolute;
+  top: 16.563em;
+  left: 2.375em;
+  width: 30em;
+  height: 21.75em;
+  object-fit: cover;
+}
+.lazsmall,
+.tivi-sony-65 {
+  position: absolute;
+  top: 21.857em;
+  left: 39.571em;
+  font-size: 0.875em;
+  display: inline-block;
+  width: 8.714em;
+  height: 1.429em;
+}
+.lazsmall {
+  top: 13.45em;
+  left: 27.7em;
+  font-size: 1.25em;
+  color: #f83333;
+  width: 4.9em;
+  height: 0.95em;
+  text-shadow: 1px 0 0#ab0000, 0 1px 0#ab0000, -1px 0 0#ab0000, 0-1px 0#ab0000;
+}
+.star-1-icon,
+.star-3-icon {
+  width: 1.5em;
+  position: relative;
+  height: 1.5em;
+}
+.star-3-icon {
+  object-fit: cover;
+}
+.nh-gi,
+.rating {
+  position: absolute;
+}
+.rating {
+  top: 21.688em;
+  left: 34.625em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nh-gi {
+  top: 25.071em;
+  left: 49.571em;
+  font-size: 0.875em;
+  font-weight: 500;
+  color: #5174cc;
+}
+.image-2-icon,
+.image-3-icon {
+  position: absolute;
+  top: 20.375em;
+  left: 45.375em;
+  width: 1.063em;
+  height: 1.063em;
+  object-fit: cover;
+}
+.image-3-icon {
+  top: 20.25em;
+  left: 47em;
+  width: 1.188em;
+  height: 1.188em;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  font-size: 1em;
+  font-weight: 500;
+}
+.div {
+  top: 35em;
+  left: 34.625em;
+  color: #ee5e5e;
+}
+.div1,
+.div2 {
+  top: 37.125em;
+}
+.div1 {
+  left: 34.625em;
+  text-decoration: line-through;
+  color: #9e9898;
+}
+.div2 {
+  left: 42.938em;
+}
+.paginationitem-icon {
+  display: none;
+}
+.paginationitem-icon,
+.paginationitem-icon1 {
+  width: 2.5em;
+  position: relative;
+  height: 2.5em;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: 0.875em;
+  letter-spacing: 0.17px;
+  line-height: 143%;
+}
+.buttonbase,
+.paginationitem {
+  width: 2.5em;
+  height: 2.5em;
+  overflow: hidden;
+}
+.buttonbase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+.paginationitem {
+  position: relative;
+  flex-shrink: 0;
+  color: #fff;
+}
+.buttonbase1,
+.pagination {
+  position: absolute;
+  overflow: hidden;
+}
+.buttonbase1 {
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  width: 2.5em;
+  height: 2.5em;
+}
+.pagination {
+  top: 39.25em;
+  left: 7.125em;
+  border: 1px solid #3c2c2c;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.375em;
+  gap: 0.375em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 1px;
+  background-color: rgba(124, 118, 118, 0.1);
+  width: 27.938em;
+  height: 12.813em;
+}
+.image-4-icon {
+  position: absolute;
+  top: 0.973em;
+  left: 0.831em;
+  width: 1.109em;
+  height: 1.544em;
+  object-fit: cover;
+}
+.h-ch-minh {
+  top: 1.143em;
+  left: 3.071em;
+  width: 20.5em;
+  height: 2em;
+}
+.bo-hnh-bi,
+.h-ch-minh,
+.i-tr-v,
+.ngy-tr-hng,
+.thay-i {
+  position: absolute;
+  font-size: 0.875em;
+  letter-spacing: 0.17px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+}
+.thay-i {
+  top: 0.654em;
+  left: 26.607em;
+  color: #3542b7;
+  width: 5.321em;
+  height: 2.746em;
+}
+.bo-hnh-bi,
+.i-tr-v,
+.ngy-tr-hng {
+  top: 5.491em;
+  left: 0.95em;
+  width: 19.449em;
+  height: 2.68em;
+}
+.bo-hnh-bi,
+.ngy-tr-hng {
+  top: 8.041em;
+  left: 3.104em;
+  width: 17.231em;
+  height: 2.026em;
+}
+.bo-hnh-bi {
+  top: 9.786em;
+  left: 3.071em;
+  width: 22.643em;
+  height: 2.786em;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 16.313em;
+  left: 60.125em;
+  width: 27.938em;
+  height: 12.813em;
+  font-family: Roboto;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0.001em;
+  border-radius: 1px;
+  background-color: rgba(124, 118, 118, 0.1);
+  width: 27.937em;
+  height: 12.5em;
+}
+.nh-bn-hng,
+.nh-bp-quang {
+  position: absolute;
+  top: 0.574em;
+  left: 1.204em;
+  font-size: 0.875em;
+  letter-spacing: 0.17px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  width: 10.516em;
+  height: 2.232em;
+}
+.nh-bp-quang {
+  top: 3.316em;
+  width: 16.217em;
+  height: 2.296em;
+}
+.group-inner {
+  position: absolute;
+  top: 9.121em;
+  left: -0.031em;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 28.001em;
+  height: 0.063em;
+}
+.n-gian-hng {
+  position: absolute;
+  top: 11.357em;
+  left: 9.479em;
+  font-size: 0.875em;
+  letter-spacing: 0.17px;
+  line-height: 143%;
+  color: #0882e4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14.069em;
+  height: 1.857em;
+}
+.rectangle-group {
+  position: absolute;
+  top: 29.625em;
+  left: 60.125em;
+  width: 27.938em;
+  height: 12.5em;
+  font-family: Roboto;
+}
+.div3 {
+  position: absolute;
+  top: 3.063em;
+  left: 83.375em;
+  background-color: #c4c4c4;
+  width: 2.5em;
+  height: 2.5em;
+}
+.group-child1,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #78b9ec;
+  width: 100em;
+  height: 8.813em;
+}
+.group-child1 {
+  border-radius: 150px;
+  background-color: #fff;
+  width: 43.25em;
+  height: 3em;
+}
+.searchfilled-icon {
+  width: 1.5em;
+  position: relative;
+  height: 1.5em;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  position: absolute;
+  top: 0.857em;
+  left: 38.346em;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 2.354em;
+  height: 1.286em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-div {
+  position: absolute;
+  top: 3em;
+  left: 23.375em;
+  width: 43.25em;
+  height: 3em;
+}
+.sn-phm,
+.trang-ch {
+  top: 0.714em;
+  display: inline-block;
+  width: 7.714em;
+}
+.trang-ch {
+  position: absolute;
+  left: 76.357em;
+  font-size: 0.875em;
+  height: 1.857em;
+}
+.sn-phm {
+  left: 85.286em;
+}
+.gii-thiu,
+.ng-nhpng-k,
+.sn-phm {
+  position: absolute;
+  font-size: 0.875em;
+  height: 1.857em;
+}
+.gii-thiu {
+  top: 0.714em;
+  left: 94.071em;
+  display: inline-block;
+  width: 7.714em;
+}
+.ng-nhpng-k {
+  top: 4em;
+  left: 79.5em;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.643em;
+}
+.icon1,
+.remise-1-icon {
+  position: absolute;
+  top: 0;
+  left: 4.438em;
+  width: 14.188em;
+  height: 6.625em;
+  object-fit: cover;
+}
+.icon1 {
+  top: 3.125em;
+  left: 78.563em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.rectangle-container {
+  position: absolute;
+  top: -0.062em;
+  left: 0;
+  width: 90em;
+  height: 8.813em;
+  color: #fff;
+}
+.cc-sn-phm,
+.so-snh-gi {
+  position: absolute;
+  top: 43.875em;
+  left: 2.375em;
+  font-size: 1em;
+  color: #4556ee;
+}
+.cc-sn-phm {
+  top: 60.813em;
+}
+.div4,
+.tivi-sony-651 {
+  position: absolute;
+  top: 53.5em;
+  font-size: 0.875em;
+}
+.tivi-sony-651 {
+  left: 12.429em;
+  display: inline-block;
+  width: 17.071em;
+  height: 2.071em;
+}
+.div4 {
+  left: 33.571em;
+  color: #c91d1d;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: rgba(31, 123, 193, 0.95);
+  width: 7.768em;
+  height: 1.813em;
+}
+.ti-ni-bn {
+  position: absolute;
+  top: 0.357em;
+  left: 1.594em;
+  font-size: 0.875em;
+  display: inline-block;
+  width: 5.539em;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 46.25em;
+  left: 38.096em;
+  width: 7.768em;
+  height: 1.813em;
+  color: #fff5f5;
+}
+.promaxvn {
+  position: absolute;
+  top: 55.571em;
+  left: 2.714em;
+  font-size: 0.875em;
+  display: inline-block;
+  width: 6.5em;
+  height: 1.214em;
+}
+.product-page-child1,
+.product-page-child2 {
+  position: absolute;
+  top: 54.625em;
+  left: 2.375em;
+}
+.product-page-child1 {
+  background-color: rgba(232, 232, 232, 0.43);
+  border-bottom: 0.1px solid #000;
+  box-sizing: border-box;
+  width: 45.813em;
+  height: 4.5em;
+}
+.product-page-child2 {
+  background-color: #78b9ec;
+  width: 5.625em;
+  height: 2.813em;
+}
+.div5,
+.tivi-sony-652 {
+  position: absolute;
+  top: 63.571em;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.tivi-sony-652 {
+  left: 12.5em;
+  width: 18.143em;
+  height: 2.071em;
+}
+.div5 {
+  left: 33.571em;
+  color: #c91d1d;
+  width: 5.714em;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 55.063em;
+  left: 38.163em;
+  width: 7.768em;
+  height: 1.813em;
+  color: #fff5f5;
+}
+.nhatminhvn {
+  position: absolute;
+  top: 65.643em;
+  left: 2.786em;
+  font-size: 0.875em;
+  display: inline-block;
+  width: 6.5em;
+  height: 1.214em;
+}
+.product-page-child3,
+.product-page-child4 {
+  position: absolute;
+  top: 50.313em;
+  left: 2.313em;
+}
+.product-page-child3 {
+  background-color: rgba(232, 232, 232, 0.43);
+  border-bottom: 0.1px solid #000;
+  box-sizing: border-box;
+  width: 45.813em;
+  height: 4.5em;
+}
+.product-page-child4 {
+  background-color: #78b9ec;
+  width: 5.625em;
+  height: 2.813em;
+}
+.div6,
+.tivi-sony-653 {
+  position: absolute;
+  top: 58.643em;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.tivi-sony-653 {
+  left: 12.429em;
+  width: 18.143em;
+  height: 2.071em;
+}
+.div6 {
+  left: 33.5em;
+  color: #c91d1d;
+  width: 5.714em;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 50.75em;
+  left: 38.096em;
+  width: 7.768em;
+  height: 1.813em;
+  color: #fff5f5;
+}
+.bisusvn,
+.sp-xp-gi,
+.tng-dn {
+  position: absolute;
+  font-size: 0.875em;
+}
+.bisusvn {
+  top: 60.714em;
+  left: 2.714em;
+  display: inline-block;
+  width: 6.5em;
+  height: 1.214em;
+}
+.sp-xp-gi,
+.tng-dn {
+  top: 49.929em;
+}
+.sp-xp-gi {
+  left: 39.714em;
+  display: inline-block;
+  width: 6.357em;
+  height: 1.429em;
+}
+.tng-dn {
+  left: 46.357em;
+}
+.image-7-icon {
+  position: absolute;
+  top: 43.75em;
+  left: 44.563em;
+  width: 0.875em;
+  height: 0.875em;
+  object-fit: cover;
+}
+.back-button-1-icon,
+.back-button-2-icon {
+  position: absolute;
+  top: 60.438em;
+  left: 78.625em;
+  width: 1.875em;
+  height: 1.875em;
+  object-fit: cover;
+}
+.back-button-2-icon {
+  left: 81.063em;
+  object-fit: contain;
+}
+.lazada,
+.shopping-online,
+.shopping-online1 {
+  position: absolute;
+  top: 74.5em;
+  left: 3.8em;
+  font-size: 0.625em;
+  text-align: center;
+  display: inline-block;
+  width: 7.9em;
+  height: 2.1em;
+}
+.lazada,
+.shopping-online1 {
+  top: 81.7em;
+}
+.lazada {
+  top: 88.7em;
+  left: 3.9em;
+}
+.product-page-child5,
+.product-page-child6,
+.product-page-child7,
+.rectangle-icon {
+  position: absolute;
+  top: 63.125em;
+  left: 2.563em;
+  width: 16.063em;
+  height: 18.813em;
+  object-fit: cover;
+}
+.product-page-child5,
+.product-page-child6,
+.product-page-child7 {
+  left: 51.25em;
+  width: 16.313em;
+}
+.product-page-child6,
+.product-page-child7 {
+  left: 18.625em;
+  width: 16.375em;
+}
+.product-page-child7 {
+  left: 35.063em;
+  width: 16.188em;
+}
+.group-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 0.1px solid #000;
+  box-sizing: border-box;
+  width: 16.188em;
+  height: 7.063em;
+}
+.div7,
+.iphone-promax-hng {
+  left: 1.346em;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.iphone-promax-hng {
+  position: absolute;
+  top: 1.5em;
+  width: 15.806em;
+  height: 1.143em;
+}
+.div7 {
+  top: 4.214em;
+  color: red;
+  width: 10.207em;
+  height: 1.357em;
+}
+.b,
+.div7,
+.div8 {
+  position: absolute;
+}
+.div8 {
+  top: 5.643em;
+  left: 1.346em;
+  font-size: 0.875em;
+  text-decoration: line-through;
+  color: #564343;
+  display: inline-block;
+  width: 10.207em;
+  height: 1.357em;
+}
+.b {
+  top: 1.9em;
+  left: 5.392em;
+  font-size: 1.875em;
+  display: flex;
+  color: #ff1616;
+  text-align: right;
+  align-items: center;
+  width: 2.613em;
+  height: 1.7em;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 82.063em;
+  left: 2.5em;
+  width: 16.188em;
+  height: 7.063em;
+  font-family: Roboto;
+}
+.product-page-child8 {
+  position: absolute;
+  top: 63.125em;
+  left: 67.688em;
+  width: 16.063em;
+  height: 18.813em;
+  object-fit: cover;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 82.063em;
+  left: 67.563em;
+  width: 16.188em;
+  height: 7.063em;
+  font-family: Roboto;
+}
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 0.1px solid #000;
+  box-sizing: border-box;
+  width: 16.313em;
+  height: 7.063em;
+}
+.div11,
+.iphone-promax-hng2 {
+  left: 1.357em;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.iphone-promax-hng2 {
+  position: absolute;
+  top: 1.5em;
+  width: 15.929em;
+  height: 1.143em;
+}
+.div11 {
+  top: 4.214em;
+  color: red;
+  width: 10.286em;
+  height: 1.357em;
+}
+.b2,
+.div11,
+.div12 {
+  position: absolute;
+}
+.div12 {
+  top: 5.643em;
+  left: 1.357em;
+  font-size: 0.875em;
+  text-decoration: line-through;
+  color: #564343;
+  display: inline-block;
+  width: 10.286em;
+  height: 1.357em;
+}
+.b2 {
+  top: 1.9em;
+  left: 5.433em;
+  font-size: 1.875em;
+  display: flex;
+  color: #ff1616;
+  text-align: right;
+  align-items: center;
+  width: 2.633em;
+  height: 1.7em;
+}
+.rectangle-parent6 {
+  position: absolute;
+  top: 82.063em;
+  left: 18.688em;
+  width: 16.313em;
+  height: 7.063em;
+  font-family: Roboto;
+}
+.div13,
+.iphone-promax-hng3 {
+  left: 1.714em;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.iphone-promax-hng3 {
+  position: absolute;
+  top: 1.5em;
+  width: 15.929em;
+  height: 1.143em;
+}
+.div13 {
+  top: 4.214em;
+  color: red;
+  width: 10.286em;
+  height: 1.357em;
+}
+.b3,
+.div13,
+.div14 {
+  position: absolute;
+}
+.div14 {
+  top: 5.643em;
+  left: 1.714em;
+  font-size: 0.875em;
+  text-decoration: line-through;
+  color: #564343;
+  display: inline-block;
+  width: 10.286em;
+  height: 1.357em;
+}
+.b3 {
+  top: 1.9em;
+  left: 5.6em;
+  font-size: 1.875em;
+  display: flex;
+  color: #ff1616;
+  text-align: right;
+  align-items: center;
+  width: 2.633em;
+  height: 1.7em;
+}
+.rectangle-parent7,
+.rectangle-parent8 {
+  position: absolute;
+  top: 0;
+  left: 16.25em;
+  width: 16.313em;
+  height: 7.063em;
+}
+.rectangle-parent7 {
+  top: 82.063em;
+  left: 35em;
+  width: 32.563em;
+  font-family: Roboto;
+}
+.line-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90em;
+  height: 0.188em;
+  object-fit: contain;
+}
+.h-tr-khch {
+  top: 2.1em;
+  left: 43.6em;
+  text-align: center;
+  justify-content: center;
+  width: 12.4em;
+  height: 2.25em;
+}
+.div17,
+.facebookcom,
+.h-tr-khch,
+.thng-tin-lin {
+  position: absolute;
+  font-size: 1.25em;
+  display: flex;
+  align-items: center;
+}
+.thng-tin-lin {
+  top: 2.1em;
+  left: 59.3em;
+  text-align: center;
+  justify-content: center;
+  width: 12.25em;
+  height: 2.25em;
+}
+.div17,
+.facebookcom {
+  top: 10em;
+  left: 63.3em;
+  width: 6.25em;
+  height: 1.05em;
+}
+.facebookcom {
+  top: 6.6em;
+  left: 63.5em;
+  width: 7.25em;
+  height: 0.9em;
+}
+.remise-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 2.938em;
+  width: 14.188em;
+  height: 6.625em;
+  object-fit: cover;
+}
+.cc-cu-hi,
+.chnh-sch-bn,
+.cng-c-so,
+.cng-ty-c,
+.min-tr-trch {
+  position: absolute;
+  top: 11.286em;
+  left: 5em;
+  font-size: 0.875em;
+  display: flex;
+  align-items: center;
+  width: 25.214em;
+  height: 4.214em;
+}
+.cc-cu-hi,
+.chnh-sch-bn,
+.cng-ty-c,
+.min-tr-trch {
+  top: 6.188em;
+  left: 4.375em;
+  font-size: 1em;
+  width: 22.063em;
+  height: 3.688em;
+}
+.cc-cu-hi,
+.chnh-sch-bn,
+.min-tr-trch {
+  top: 5.45em;
+  left: 44.5em;
+  font-size: 1.25em;
+  width: 10.65em;
+  height: 1.95em;
+}
+.chnh-sch-bn,
+.min-tr-trch {
+  top: 8.5em;
+}
+.min-tr-trch {
+  top: 11.55em;
+}
+.line-parent {
+  position: absolute;
+  top: 97.063em;
+  left: 0;
+  width: 90em;
+  height: 16.875em;
+  font-family: Roboto;
+}
+.product-page {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 117em;
+  overflow: hidden;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}

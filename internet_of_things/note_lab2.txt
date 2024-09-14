@@ -1,0 +1,6 @@
+sensor sinh ra rất nhiều dữ liệu (dữ liệu cảm biến, dữ liệu dạng time series...)
+
+29.1 vận tốc siêu âm.
+
+Có 7 câu:
+
